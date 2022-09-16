@@ -1,0 +1,72 @@
+body{
+    background-color:aliceblue;
+    background-image:url(OIP.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.continer{
+   width: 700px;
+   height: 900px;
+   margin:20px auto;  
+   
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    border-radius:36% 29% 22% 24% / 20% 22% 22% 23%  ;
+    padding: 15px;
+    background-color: #EE6983;
+    border: solid 2px black;
+}
+legend{
+    padding: 5px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 10px ;
+
+}
+fieldset{
+    border-radius: 10px ;
+    border:solid 2px bla;
+    background-color: #FFC4C4; 
+    
+}
+label{
+background-color:#EE6983; 
+width: 303px;
+padding: 5px;
+
+} 
+input,textarea{
+    width: 300px;
+    padding: 5px;
+    border-top: none;
+    border-left: solid 2px black;
+    border-bottom: solid 2pxblack;
+    border-right: solid 2px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.LABLE{
+    display: block;
+    margin: auto;
+}
+
+.FOOT{
+    text-align: center;
+}
+#Submit{
+    display: inline;
+    border-radius:36% 29% 22% 24% / 20% 22% 22% 23%  ;
+    width: 150px;
+    border:solid 2px black;
+    background-color:#EE6983;
+    
+} 
+#Submit:hover{
+    cursor: pointer;
+    background-color: rgb(117, 219, 219);
+    border:solid 2px black; 
+}
